@@ -1,7 +1,4 @@
 {
-  "compilerOptions": {
-    "noImplicitAny": true
-  },
   "lint": {
     "include": ["src/"],
     "exclude": ["src/testdata/", "data/fixtures/**/*.ts"],
@@ -21,6 +18,6 @@
     "singleQuote": false
   },
   "tasks": {
-    "dev": "deno run --allow-net --allow-read src/hello.ts"
+    "dev": "deno run --allow-net --allow-read src/server.ts"
   }
 }
